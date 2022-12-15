@@ -7,3 +7,4 @@ class Item
         @image_url = image_url
     end
 end
+
