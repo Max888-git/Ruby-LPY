@@ -1,7 +1,7 @@
+require_relative './lib/item_container'
 require 'csv'
 require 'nokogiri'
 require 'json'
-
 
 class Cart
     def initialize(items)
@@ -24,5 +24,19 @@ class Cart
               name = item.at_css('a').text
               link = item.at_css('a')[:href]
               csv << [name, link]
+    end
+
+    def save_to_json()
+    end
+
+    def save_to_file(filetype)
+        case 
+        when filetype == 'csv'
+            save_to_csv()
+        when filetype == 'json'
+            save_to_json()
+        else
+            raise SomeException, 'Error: No filetype'   
+        end
     end
 end
