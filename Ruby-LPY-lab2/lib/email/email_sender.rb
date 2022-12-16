@@ -10,12 +10,13 @@ module Email
             @credentials = EmailCredentials.get_email_credentials
         end
 
-        def send(to, subject, message)
+        def send(to, subject, message, attachment)
             Pony.mail({
                 :to => to,
                 :from => @from,
                 :subject => subject,
                 :body => message,
+                :attachments => { attachment.filename => attachment.filepath },
                 :via => :smtp,
                 :via_options => {
                   :address        => @server,

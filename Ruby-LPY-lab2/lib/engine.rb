@@ -3,6 +3,8 @@ require_relative './cart'
 require_relative './item'
 require_relative './infrastructure/zipper'
 require_relative './infrastructure/file_helper'
+require_relative './email/email_sender'
+require_relative './email/email_attachment'
 
 class Engine
     def initialize(web_address, email_credentials, email_to_send)
@@ -46,6 +48,9 @@ class Engine
         zipper = Zipper.new("./", "application-#{random_suffix}.zip", [".rb", ".csv"])
         zipper.write
 
+        email_sender = Email::EmailSender.new
+        email_attachment = Email::EmailAttachment.new("application-#{random_suffix}.zip", "application-#{random_suffix}.zip")
+        email_sender.send(@email_to_send, "507 - Ruby - Leka Yakhnenko Perevozniy", "In this email you can find the application code and parsing results. Please see the attachment.", email_attachment)
 
     end
 end
