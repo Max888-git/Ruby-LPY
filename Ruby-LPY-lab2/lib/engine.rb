@@ -1,5 +1,8 @@
 require_relative './infrastructure/parser'
-
+require_relative './cart'
+require_relative './item'
+require_relative './infrastructure/zipper'
+require_relative './infrastructure/file_helper'
 
 class Engine
     def initialize(web_address, email_credentials, email_to_send)
@@ -33,5 +36,16 @@ class Engine
         end
 
         parsed_products
+
+        cart = Cart.new parsed_products
+        file_helper = FileHelper.new
+
+        random_suffix = DateTime.now.strftime("%N")
+
+        file_helper.write_file("products-#{random_suffix}.csv", cart.to_csv)
+        zipper = Zipper.new("./", "application-#{random_suffix}.zip", [".rb", ".csv"])
+        zipper.write
+
+
     end
 end

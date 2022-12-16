@@ -3,6 +3,7 @@ require 'mechanize'
 
 class Parser
     def parse_catalogue_page(catalogue_link)
+        puts "Parsing catalogue link #{catalogue_link}"
         agent = Mechanize.new
         page = agent.get(catalogue_link)
         product_links = page.links_with(:href => %r{products/}, :class => "h3" )
@@ -11,6 +12,8 @@ class Parser
     end
 
     def parse_product_page(product_link)
+        puts "Parsing product #{product_link}"
+
         agent = Mechanize.new
         page = agent.get(product_link)
         
