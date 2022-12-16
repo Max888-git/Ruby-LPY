@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'mechanize'
+gem 'nokogiri'
+gem 'pony'
+gem 'rubyzip'
