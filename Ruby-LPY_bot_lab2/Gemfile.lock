@@ -1,0 +1,72 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activemodel (7.0.5)
+      activesupport (= 7.0.5)
+    activerecord (7.0.5)
+      activemodel (= 7.0.5)
+      activesupport (= 7.0.5)
+    activesupport (7.0.5)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
+    concurrent-ruby (1.2.2)
+    dry-core (1.0.0)
+      concurrent-ruby (~> 1.0)
+      zeitwerk (~> 2.6)
+    dry-inflector (1.0.0)
+    dry-logic (1.5.0)
+      concurrent-ruby (~> 1.0)
+      dry-core (~> 1.0, < 2)
+      zeitwerk (~> 2.6)
+    dry-struct (1.6.0)
+      dry-core (~> 1.0, < 2)
+      dry-types (>= 1.7, < 2)
+      ice_nine (~> 0.11)
+      zeitwerk (~> 2.6)
+    dry-types (1.7.1)
+      concurrent-ruby (~> 1.0)
+      dry-core (~> 1.0)
+      dry-inflector (~> 1.0)
+      dry-logic (~> 1.4)
+      zeitwerk (~> 2.6)
+    faraday (2.7.5)
+      faraday-net_http (>= 2.0, < 3.1)
+      ruby2_keywords (>= 0.0.4)
+    faraday-multipart (1.0.4)
+      multipart-post (~> 2)
+    faraday-net_http (3.0.2)
+    i18n (1.13.0)
+      concurrent-ruby (~> 1.0)
+    ice_nine (0.11.2)
+    json (2.6.3)
+    minitest (5.18.0)
+    multipart-post (2.3.0)
+    pg (1.5.3-x64-mingw-ucrt)
+    rake (13.0.6)
+    ruby2_keywords (0.0.5)
+    telegram-bot-ruby (1.0.0)
+      dry-struct (~> 1.6)
+      faraday (~> 2.0)
+      faraday-multipart (~> 1.0)
+      zeitwerk (~> 2.6)
+    tzinfo (2.0.6)
+      concurrent-ruby (~> 1.0)
+    yaml (0.2.1)
+    zeitwerk (2.6.8)
+
+PLATFORMS
+  x64-mingw-ucrt
+
+DEPENDENCIES
+  activerecord
+  i18n
+  json
+  pg
+  rake
+  telegram-bot-ruby (~> 1.0)
+  yaml
+
+BUNDLED WITH
+   2.3.26

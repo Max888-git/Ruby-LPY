@@ -1,0 +1,108 @@
+D, [2023-05-28T14:45:30.320556 #13092] DEBUG -- : Starting telegram bot
+D, [2023-05-28T14:45:57.528673 #13092] DEBUG -- : @stasyakhnenko: 123
+D, [2023-05-28T14:45:59.703919 #13092] DEBUG -- : @stasyakhnenko: /start
+D, [2023-05-28T14:45:59.965888 #13092] DEBUG -- : sending 'Hi! Let's start!' to stasyakhnenko
+D, [2023-05-28T14:46:03.692312 #13092] DEBUG -- : @stasyakhnenko: /finish
+D, [2023-05-28T14:48:31.098337 #31804] DEBUG -- : Starting telegram bot
+D, [2023-05-28T14:48:32.787597 #31804] DEBUG -- : @stasyakhnenko: /start
+D, [2023-05-28T14:48:33.249757 #31804] DEBUG -- : sending 'Hi! Let's start!' to stasyakhnenko
+D, [2023-05-28T14:48:37.458115 #31804] DEBUG -- : @stasyakhnenko: /finish
+D, [2023-05-28T14:48:42.689854 #31804] DEBUG -- : @stasyakhnenko: /finish
+D, [2023-05-28T14:48:50.783819 #31804] DEBUG -- : @stasyakhnenko: /stop
+D, [2023-05-28T14:48:50.968895 #31804] DEBUG -- : sending 'Bye! See you soon ' to stasyakhnenko
+D, [2023-05-28T15:00:05.486289 #31804] DEBUG -- : @stasyakhnenko: /c 1
+D, [2023-05-28T15:04:29.550454 #31804] DEBUG -- : @stasyakhnenko: /с 2
+D, [2023-05-28T15:04:36.332574 #31804] DEBUG -- : @stasyakhnenko: /с 1
+D, [2023-05-28T15:05:43.505505 #34248] DEBUG -- : Fetching questions
+D, [2023-05-28T15:05:43.533848 #34248] DEBUG -- : Starting telegram bot
+D, [2023-05-28T15:05:53.774622 #34248] DEBUG -- : @stasyakhnenko: /с 2
+D, [2023-05-28T15:05:59.017280 #34248] DEBUG -- : @stasyakhnenko: /start
+D, [2023-05-28T15:05:59.328341 #34248] DEBUG -- : sending 'Hi! Let's start!' to stasyakhnenko
+D, [2023-05-28T15:06:00.898752 #34248] DEBUG -- : @stasyakhnenko: /c 2
+D, [2023-05-28T15:10:32.155102 #3528] DEBUG -- : Fetching questions
+D, [2023-05-28T15:10:32.181404 #3528] DEBUG -- : Starting telegram bot
+D, [2023-05-28T15:10:33.063020 #3528] DEBUG -- : @stasyakhnenko: /c 2
+D, [2023-05-28T15:10:35.871850 #3528] DEBUG -- : @stasyakhnenko: /c 2
+D, [2023-05-28T15:10:43.967890 #3528] DEBUG -- : @stasyakhnenko: /start
+D, [2023-05-28T15:10:44.264575 #3528] DEBUG -- : sending 'Hi! Let's start!' to stasyakhnenko
+D, [2023-05-28T15:10:46.660879 #3528] DEBUG -- : @stasyakhnenko: /c 2
+D, [2023-05-28T15:10:48.716130 #3528] DEBUG -- : @stasyakhnenko: /c 1
+D, [2023-05-28T15:11:12.106112 #3528] DEBUG -- : @stasyakhnenko: /c 15
+D, [2023-05-28T15:11:44.254070 #3528] DEBUG -- : @stasyakhnenko: /start 123
+D, [2023-05-28T15:11:44.565867 #3528] DEBUG -- : sending 'Hi! Let's start!' to stasyakhnenko
+D, [2023-05-28T15:11:47.856672 #3528] DEBUG -- : @stasyakhnenko: /start 8282
+D, [2023-05-28T15:11:48.089559 #3528] DEBUG -- : sending 'Hi! Let's start!' to stasyakhnenko
+D, [2023-05-28T15:11:52.426862 #3528] DEBUG -- : @stasyakhnenko: /c 1
+D, [2023-05-28T15:11:55.172645 #3528] DEBUG -- : @stasyakhnenko: /с 1
+D, [2023-05-28T15:11:58.957220 #3528] DEBUG -- : @stasyakhnenko: /с 1
+D, [2023-05-28T15:12:02.566165 #3528] DEBUG -- : @stasyakhnenko: /с1
+D, [2023-05-28T15:12:06.487011 #3528] DEBUG -- : @stasyakhnenko: /c 213
+D, [2023-05-28T15:15:09.907280 #20648] DEBUG -- : Fetching questions
+D, [2023-05-28T15:15:09.937953 #20648] DEBUG -- : Starting telegram bot
+D, [2023-05-28T15:15:11.444783 #20648] DEBUG -- : @stasyakhnenko: /start
+D, [2023-05-28T15:15:11.948187 #20648] DEBUG -- : sending 'Hi! Let's start!' to stasyakhnenko
+D, [2023-05-28T15:15:13.908805 #20648] DEBUG -- : @stasyakhnenko: /c 1
+D, [2023-05-28T15:15:14.138000 #20648] DEBUG -- : sending 'Question ' to stasyakhnenko
+D, [2023-05-28T15:15:18.754805 #20648] DEBUG -- : @stasyakhnenko: /c 5
+D, [2023-05-28T15:15:19.017613 #20648] DEBUG -- : sending 'Question ' to stasyakhnenko
+D, [2023-05-28T15:17:48.194829 #40256] DEBUG -- : Fetching questions
+D, [2023-05-28T15:17:48.229612 #40256] DEBUG -- : Starting telegram bot
+D, [2023-05-28T15:17:55.400280 #40256] DEBUG -- : @stasyakhnenko: /c 2
+D, [2023-05-28T15:17:55.858031 #40256] DEBUG -- : sending 'Question 2' to stasyakhnenko
+D, [2023-05-28T15:17:59.261511 #40256] DEBUG -- : @stasyakhnenko: /c 5
+D, [2023-05-28T15:17:59.521320 #40256] DEBUG -- : sending 'Question 5' to stasyakhnenko
+D, [2023-05-28T15:19:51.374241 #31460] DEBUG -- : Fetching questions
+D, [2023-05-28T15:19:51.406065 #31460] DEBUG -- : Starting telegram bot
+D, [2023-05-28T15:20:02.590293 #31460] DEBUG -- : @stasyakhnenko: /c 1
+D, [2023-05-28T15:20:31.782582 #22272] DEBUG -- : Fetching questions
+D, [2023-05-28T15:20:31.841685 #22272] DEBUG -- : Starting telegram bot
+D, [2023-05-28T15:20:32.750089 #22272] DEBUG -- : @stasyakhnenko: /c 1
+D, [2023-05-28T15:20:53.055542 #39724] DEBUG -- : Fetching questions
+D, [2023-05-28T15:20:53.084226 #39724] DEBUG -- : Starting telegram bot
+D, [2023-05-28T15:20:53.976372 #39724] DEBUG -- : @stasyakhnenko: /c 1
+D, [2023-05-28T15:20:54.372361 #39724] DEBUG -- : sending 'Значення якого з наведених виразів є натуральним числом?' to stasyakhnenko
+D, [2023-05-28T15:20:57.913333 #39724] DEBUG -- : @stasyakhnenko: /c 2
+D, [2023-05-28T15:20:58.130893 #39724] DEBUG -- : sending 'Яка з наведених рівностей правильна, якщо ∠А - тупий?' to stasyakhnenko
+D, [2023-05-28T15:21:00.296412 #39724] DEBUG -- : @stasyakhnenko: /c 2
+D, [2023-05-28T15:21:00.545299 #39724] DEBUG -- : sending 'Яка з наведених рівностей правильна, якщо ∠А - тупий?' to stasyakhnenko
+D, [2023-05-28T15:21:02.393309 #39724] DEBUG -- : @stasyakhnenko: /c 3
+D, [2023-05-28T15:21:02.702882 #39724] DEBUG -- : sending 'Чому дорівнює значення виразу 3 ¾ + 2 ¼ - 3 ⅙' to stasyakhnenko
+D, [2023-05-28T15:21:05.753495 #39724] DEBUG -- : @stasyakhnenko: /c 4
+D, [2023-05-28T15:21:06.032979 #39724] DEBUG -- : sending 'Товар коштував 40 грн. Через деякий час його ціна зросла на 30%. Визначте нову ціну товару.' to stasyakhnenko
+D, [2023-05-28T15:27:39.264070 #11616] DEBUG -- : Fetching questions
+D, [2023-05-28T15:27:39.299032 #11616] DEBUG -- : Starting telegram bot
+D, [2023-05-28T15:27:49.681014 #11616] DEBUG -- : @stasyakhnenko: /c 1
+D, [2023-05-28T15:29:32.407625 #10560] DEBUG -- : Fetching questions
+D, [2023-05-28T15:29:32.436535 #10560] DEBUG -- : Starting telegram bot
+D, [2023-05-28T15:29:33.376647 #10560] DEBUG -- : @stasyakhnenko: /c 1
+D, [2023-05-28T15:29:42.200024 #34288] DEBUG -- : Fetching questions
+D, [2023-05-28T15:29:42.230280 #34288] DEBUG -- : Starting telegram bot
+D, [2023-05-28T15:29:43.095494 #34288] DEBUG -- : @stasyakhnenko: /c 1
+D, [2023-05-28T15:29:58.930208 #38784] DEBUG -- : Fetching questions
+D, [2023-05-28T15:29:58.957479 #38784] DEBUG -- : Starting telegram bot
+D, [2023-05-28T15:29:59.813596 #38784] DEBUG -- : @stasyakhnenko: /c 1
+D, [2023-05-28T15:30:11.821031 #4672] DEBUG -- : Fetching questions
+D, [2023-05-28T15:30:11.847739 #4672] DEBUG -- : Starting telegram bot
+D, [2023-05-28T15:30:12.701799 #4672] DEBUG -- : @stasyakhnenko: /c 1
+D, [2023-05-28T15:31:02.402360 #30820] DEBUG -- : Fetching questions
+D, [2023-05-28T15:31:02.409972 #30820] DEBUG -- : Starting telegram bot
+D, [2023-05-28T15:31:03.281920 #30820] DEBUG -- : @stasyakhnenko: /c 1
+D, [2023-05-28T15:33:04.142938 #23556] DEBUG -- : Fetching questions
+D, [2023-05-28T15:33:04.150721 #23556] DEBUG -- : Starting telegram bot
+D, [2023-05-28T15:33:05.000526 #23556] DEBUG -- : @stasyakhnenko: /c 1
+D, [2023-05-28T15:34:37.513449 #38332] DEBUG -- : Fetching questions
+D, [2023-05-28T15:34:37.521284 #38332] DEBUG -- : Starting telegram bot
+D, [2023-05-28T15:34:38.350587 #38332] DEBUG -- : @stasyakhnenko: /c 1
+D, [2023-05-28T15:35:36.888849 #30520] DEBUG -- : Fetching questions
+D, [2023-05-28T15:35:36.896901 #30520] DEBUG -- : Starting telegram bot
+D, [2023-05-28T15:35:37.834245 #30520] DEBUG -- : @stasyakhnenko: /c 1
+D, [2023-05-28T15:35:38.288572 #30520] DEBUG -- : sending 'Значення якого з наведених виразів є натуральним числом?' to stasyakhnenko
+D, [2023-05-28T15:35:44.997546 #30520] DEBUG -- : @stasyakhnenko: /c 1
+D, [2023-05-28T15:35:45.184651 #30520] DEBUG -- : sending 'Значення якого з наведених виразів є натуральним числом?' to stasyakhnenko
+D, [2023-05-28T15:36:39.169611 #29876] DEBUG -- : Fetching questions
+D, [2023-05-28T15:36:39.177186 #29876] DEBUG -- : Starting telegram bot
+D, [2023-05-28T15:36:49.113457 #29876] DEBUG -- : @stasyakhnenko: /c 1
+D, [2023-05-28T15:37:19.291844 #25612] DEBUG -- : Fetching questions
+D, [2023-05-28T15:37:19.299312 #25612] DEBUG -- : Starting telegram bot
+D, [2023-05-28T15:37:20.237194 #25612] DEBUG -- : @stasyakhnenko: /c 1
+D, [2023-05-28T15:37:20.688859 #25612] DEBUG -- : sending 'Значення якого з наведених виразів є натуральним числом?' to stasyakhnenko
