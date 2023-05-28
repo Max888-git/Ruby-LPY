@@ -54,10 +54,15 @@ class MessageResponder
   end
 
   def answer_with_question(question_number)
-    question = @questions[question_number.to_i - 1]
-    puts question.display_answers
-    # answer_with_message_and_answers(question.question_body, [1, 2, 3, 4])
-    answer_with_message question.question_body
+    
+    if (question_number.to_i > @questions.length())
+        answer_with_message "Невірний номер питання"
+    else
+        question = @questions[question_number.to_i - 1]
+        puts question.display_answers
+        # answer_with_message_and_answers(question.question_body, [1, 2, 3, 4])
+        answer_with_message question.question_body
+    end
   end
 
   def answer_with_message(text)

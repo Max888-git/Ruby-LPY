@@ -19,10 +19,14 @@ class EngineBot
         
         Telegram::Bot::Client.run(token) do |bot|
           bot.listen do |message|
-            options = {bot: bot, message: message, questions: question_data.collection}
+            begin
+                options = {bot: bot, message: message, questions: question_data.collection}
         
-            logger.debug "@#{message.from.username}: #{message.text}" 
-            MessageResponder.new(options).respond
+                logger.debug "@#{message.from.username}: #{message.text}" 
+                MessageResponder.new(options).respond
+            rescue => e
+                logger.error e
+            end
           end
         end
     end
