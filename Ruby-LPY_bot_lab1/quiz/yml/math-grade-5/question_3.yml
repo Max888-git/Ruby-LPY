@@ -1,0 +1,7 @@
+- question: Чому дорівнює значення виразу 3 ¾ + 2 ¼ - 3 ⅙
+  answers:
+    - 3 ⅙
+    - 2 ⅙
+    - 3 ⅚
+    - 2 ⅚
+  correct_answer_index: 3

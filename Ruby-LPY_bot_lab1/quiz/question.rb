@@ -4,9 +4,10 @@ require 'yaml'
 class Question
   attr_accessor :question_body, :question_correct_answer, :question_answers
 
-  def initialize(raw_text, raw_answers)
+  def initialize(raw_text, raw_answers, correct_answer_index)
     @question_body = raw_text
     @question_answers = load_answers(raw_answers)
+    @question_correct_answer = correct_answer_index
   end
 
   def display_answers
@@ -17,7 +18,7 @@ class Question
     @question_body
   end
 
-  def to_h
+  def to_hash
     {
       question_body: @question_body,
       question_correct_answer: @question_correct_answer,
@@ -26,16 +27,15 @@ class Question
   end
 
   def to_json
-    JSON.generate(to_h)
+    JSON.pretty_generate(to_hash, {})
   end
 
   def to_yaml
-    to_h.to_yaml
+    to_hash.to_yaml
   end
 
   def load_answers(raw_answers)
     shuffled_answers = raw_answers.shuffle
-    @question_correct_answer = shuffled_answers.index(raw_answers[0])
     shuffled_answers
   end
 

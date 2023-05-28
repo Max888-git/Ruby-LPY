@@ -8,7 +8,7 @@ class FileWriter
     end
   
     def write(message)
-      File.open(prepare_filename, @mode) do |file|
+      File.open(prepare_filename, 'w') do |file|
         file.puts message
       end
     end
@@ -16,5 +16,5 @@ class FileWriter
     def prepare_filename
       File.join(@answers_dir, @filename)
     end
-  end
+end
   
