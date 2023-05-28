@@ -1,10 +1,9 @@
 require 'fileutils'
 
 class FileWriter
-    def initialize(mode, *args)
-      @answers_dir = args[0]
-      @filename = args[1]
-      @mode = mode
+    def initialize(answers_dir, filename)
+      @answers_dir = answers_dir
+      @filename = filename
     end
   
     def write(message)
@@ -14,7 +13,7 @@ class FileWriter
     end
   
     def prepare_filename
-      File.join(@answers_dir, @filename)
+      File.join(__dir__, @answers_dir, @filename)
     end
 end
   
