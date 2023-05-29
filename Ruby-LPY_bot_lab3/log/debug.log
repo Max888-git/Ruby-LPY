@@ -1,0 +1,19 @@
+D, [2023-05-29T07:33:24.736886 #32] DEBUG -- : @stasyakhnenko: /start
+D, [2023-05-29T07:33:24.747877 #32] DEBUG -- : @Stas
+D, [2023-05-29T07:33:24.954134 #32] DEBUG -- : sending 'Stas, Hi! Let's start!' to stasyakhnenko
+D, [2023-05-29T07:33:25.218879 #32] DEBUG -- : sending 'Значення якого з наведених виразів є натуральним числом?' to stasyakhnenko
+D, [2023-05-29T07:33:29.051314 #32] DEBUG -- : @stasyakhnenko: С
+D, [2023-05-29T07:33:37.550689 #32] DEBUG -- : @stasyakhnenko: С
+D, [2023-05-29T07:33:39.208727 #32] DEBUG -- : @stasyakhnenko: C
+D, [2023-05-29T07:33:39.443360 #32] DEBUG -- : sending 'Яка з наведених рівностей правильна, якщо ∠А - тупий?' to stasyakhnenko
+D, [2023-05-29T07:33:41.749004 #32] DEBUG -- : @stasyakhnenko: B
+D, [2023-05-29T07:33:41.983476 #32] DEBUG -- : sending 'Чому дорівнює значення виразу 3 ¾ + 2 ¼ - 3 ⅙' to stasyakhnenko
+D, [2023-05-29T07:33:42.687960 #32] DEBUG -- : @stasyakhnenko: C
+D, [2023-05-29T07:33:43.075364 #32] DEBUG -- : sending 'Товар коштував 40 грн. Через деякий час його ціна зросла на 30%. Визначте нову ціну товару.' to stasyakhnenko
+D, [2023-05-29T07:33:43.942395 #32] DEBUG -- : @stasyakhnenko: C
+D, [2023-05-29T07:33:44.164734 #32] DEBUG -- : sending 'Знайдіть об'єм води у резервуарі, виміри якого 2 м, 5 м і 4 м' to stasyakhnenko
+D, [2023-05-29T07:33:45.169205 #32] DEBUG -- : @stasyakhnenko: C
+D, [2023-05-29T07:33:45.404596 #32] DEBUG -- : sending 'Summary of quiz
+Correct answers: 0
+Incorrect answers: 5
+Percent: 0.0%' to stasyakhnenko
