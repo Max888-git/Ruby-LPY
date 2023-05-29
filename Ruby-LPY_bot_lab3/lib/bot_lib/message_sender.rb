@@ -12,18 +12,25 @@ class MessageSender
     @bot = options[:bot]
     @text = options[:text]
     @chat = options[:chat]
-    @answers = Array(options[:answers]).map(&:to_s)
+    @answers = options[:answers]
     @logger = AppConfigurator.new.get_logger
   end
 
   def send
-    if answers.any?
-      reply_markup = ReplyMarkupFormatter.new(answers).get_markup
+    if reply_markup
       bot.api.send_message(chat_id: chat.id, text: text, reply_markup: reply_markup)
     else
       bot.api.send_message(chat_id: chat.id, text: text)
     end
 
     logger.debug "sending '#{text}' to #{chat.username}"
+  end
+
+  private
+
+  def reply_markup
+    if answers
+      ReplyMarkupFormatter.new(answers).get_markup
+    end
   end
 end
