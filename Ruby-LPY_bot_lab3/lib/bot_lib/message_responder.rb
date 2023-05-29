@@ -32,7 +32,7 @@ class MessageResponder
       answer_with_question(question_number)
     end
 
-    on /^[A-D](.*)/ do |answer|
+    on /^([A-D]).*/ do |answer|
       process_answer(answer)
     end
   end
@@ -120,8 +120,10 @@ class MessageResponder
     question_number = @quiz_test.current_question
     question = @questions[question_number]
     correct_answer = question.question_correct_answer
-  
-    if answer.to_s.upcase == question.get_valid_answers_chars[correct_answer]
+
+    user_answer = question.find_answer_by_char(answer[0].to_s.upcase)
+
+    if user_answer.is_correct
       @quiz_test.correct_answers += 1
     else
       @quiz_test.incorrect_answers += 1
