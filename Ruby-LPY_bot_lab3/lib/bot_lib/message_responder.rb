@@ -32,7 +32,7 @@ class MessageResponder
       answer_with_question(question_number)
     end
 
-    on /^[A-D]$/i do |answer|
+    on /^[A-D](.*)/ do |answer|
       process_answer(answer)
     end
   end
@@ -74,8 +74,10 @@ class MessageResponder
     question_number = @quiz_test.current_question
     question = @questions[question_number]
 
-    answers = question.display_answers
-    answer_with_message_and_answers(question.question_body, answers)
+    # answers = question.display_answers
+    # answer_with_message_and_answers(question.question_body, answers)
+    reply_buttons = question.display_answers.map { |a| { text: a }}
+    answer_with_message_and_answers(question.question_body, reply_buttons)
   end
 
   def answer_with_test_results
@@ -88,6 +90,14 @@ class MessageResponder
   end
 
   def answer_with_question(question_number)
+    if (question_number.to_i > @questions.length())
+      answer_with_message "Невірний номер питання"
+    else
+        question = @questions[question_number.to_i - 1]
+        reply_buttons = question.display_answers.map { |a| { text: a }}
+        answer_with_message_and_answers(question.question_body, reply_buttons)
+        # answer_with_message question.question_body
+    end
   end
 
   def answer_with_message(text)
@@ -95,8 +105,8 @@ class MessageResponder
   end
  
   def answer_with_message_and_answers(text, answers)
-    markup = ReplyMarkupFormatter.new(answers).get_markup
-    MessageSender.new(bot: bot, chat: message.chat, text: text, reply_markup: markup).send
+    # markup = ReplyMarkupFormatter.new(answers).get_markup
+    MessageSender.new(bot: bot, chat: message.chat, text: text, answers: answers).send
   end
   
   def save_user_name
