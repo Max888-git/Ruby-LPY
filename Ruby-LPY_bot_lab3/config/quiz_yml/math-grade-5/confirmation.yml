@@ -1,0 +1,5 @@
+- question: Нажми Так для старту 
+  answers:
+    - Так
+    - Ні
+  correct_answer_index: 0

@@ -1,0 +1,14 @@
+en:
+  greeting_message: "Hi! Let's start!"
+  farewell_message: "Bye! See you soon "
+  summary: "Summary of quiz"
+  correct_answers: "Correct answers"
+  incorrect_answers: "Incorrect answers"
+  percent: "Percent"
+ua:
+  greeting_message: "Привіт! Почнемо роботу!"
+  farewell_message: "Прощавай! До зустрічі"
+  summary: "Підсумки"
+  correct_answers: "Правильні відповіді"
+  incorrect_answers: "Неправильні відповіді"
+  percent: "Відсоток"
